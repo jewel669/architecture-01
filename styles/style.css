@@ -1,0 +1,89 @@
+/* font style  sans */
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+/* head text style */
+.heading{
+    max-width: 100%;
+     
+}
+.bg-color{
+    background-color: #ffd9ad;
+}
+.display-flex{
+    display: flex;
+}
+.headers{
+    justify-content: space-between;
+    max-width: 1140px;
+     margin: 0 auto;
+      align-items: center;
+}
+/* navbar styling */
+.nav-title{
+    font-size: 45px;
+    font-weight: bold;
+}
+nav ul {
+    list-style-type: none;
+    gap: 50px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+/* Button Style and color */
+.btn-primary{
+    background-color: #FF900E;
+    font-size:20px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+/* Button Hover stylw */
+.b:hover{
+    background-color: #f48200;
+    color: black;
+}
+.heading-title{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.head-title{
+    margin: 0 auto ;
+    text-align: center;
+    max-width: 700px;
+    
+}
+/* header bgc style */
+.head-bgc{
+    
+    max-width: 1140px;
+    height: 700px;
+     margin: 0 auto;
+}
+.head-bgc-image{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+   
+   
+}
+
+
+/* media query responsive with mobile Phone */
+@media screen and (max-width:676px) {
+  
+    .display-flex{
+     display:grid;
+     justify-content: center;
+     gap: 20px;
+
+    }
+}
