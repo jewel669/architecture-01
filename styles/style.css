@@ -83,6 +83,21 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+.feturs-group{
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+.featurs-name{
+    font-size: 45px;
+    font-weight: 600px;
+    color: black;
+}
+.featurs{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #FF900E;
+}
 .teams{
     display: flex;
     margin-top: 50px;
@@ -130,8 +145,9 @@ main{
     grid-template-columns: repeat(1,1fr);
   }
  .teams{
-   display:grid;
-    /* align-items: start; */
-    margin-left: none;
+  flex-direction: column;
+  margin-left: 0px;
+  width:100%;
     
+}
 }
