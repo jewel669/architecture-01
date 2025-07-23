@@ -1,119 +1,120 @@
 /* font style  sans */
-.work-sans{
+.work-sans {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
 /* font color paragraph */
-.font-color{
-    color: #727272;
+.font-color {
+  color: #727272;
 }
 /* head text style */
-.heading{
-    max-width: 100%;
-     
+.heading {
+  max-width: 100%;
 }
-.bg-color{
-    background-color: #ffd9ad;
+.bg-color {
+  background-color: #ffd9ad;
 }
-.display-flex{
-    display: flex;
+.display-flex {
+  display: flex;
 }
-.headers{
-    justify-content: space-between;
-    max-width: 1140px;
-     margin: 0 auto;
-      align-items: center;
+.headers {
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  align-items: center;
 }
 /* navbar styling */
-.nav-title{
-    font-size: 45px;
-    font-weight: bold;
+.nav-title {
+  font-size: 45px;
+  font-weight: bold;
 }
 nav ul {
-    list-style-type: none;
-    gap: 50px;
+  list-style-type: none;
+  gap: 50px;
 }
-nav ul a{
-    text-decoration: none;
-    color: #494747;
+nav ul a {
+  text-decoration: none;
+  color: #494747;
 }
 /* Button Style and color */
-.btn-primary{
-    background-color: #FF900E;
-    font-size:20px;
-    padding: 10px 20px;
-    color: white;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
+.btn-primary {
+  background-color: #ff900e;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
 }
 /* Button Hover stylw */
-.b:hover{
-    background-color: #f48200;
-    color: black;
+.b:hover {
+  background-color: #f48200;
+  color: black;
 }
-.heading-title{
-    font-size: 45px;
-    font-weight: bold;
-
+.heading-title {
+  font-size: 45px;
+  font-weight: bold;
 }
-.head-title{
-    margin: 0 auto ;
-    text-align: center;
-    max-width: 700px;
-    
+.head-title {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 700px;
 }
 /* header bgc style */
-.head-bgc{
-    
-    max-width: 1140px;
-    height: 700px;
-     margin: 0 auto;
+.head-bgc {
+  max-width: 1140px;
+  height: 700px;
+  margin: 0 auto;
 }
-.head-bgc-image{
-    width: 100%;
-    margin-top: 50px;
-    /* margin-bottom: 20px; */
+.head-bgc-image {
+  width: 100%;
+  margin-top: 50px;
+  /* margin-bottom: 20px; */
 }
 
 /* team photos and description */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-.feturs-group{
-    font-size: 45px;
-    font-weight: 500;
-    color: #727272;
+.feturs-group {
+  font-size: 45px;
+  font-weight: 500;
+  color: #727272;
 }
-.featurs-name{
-    font-size: 45px;
-    font-weight: 600px;
-    color: black;
+.featurs-name {
+  font-size: 45px;
+  font-weight: 600px;
+  color: black;
 }
-.featurs{
-    font-size: 45px;
-    font-weight: 600px;
-    color: #FF900E;
+.featurs {
+  font-size: 45px;
+  font-weight: 600px;
+  color: #ff900e;
 }
-.teams{
-    display: flex;
-    margin-top: 50px;
-    align-items: center;
+.teams {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
 }
-.team-picture{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+.team-picture {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
-.team-title{
-    margin-left: 74px;
-    height: 330px;
-    width: 500px;
-    /* align-items: center; */
+.team-title {
+  margin-left: 74px;
+  height: 330px;
+  width: 500px;
+  /* align-items: center; */
 }
+
+
+
+
+
 
 
 
@@ -124,30 +125,31 @@ main{
 
 
 /* media query responsive with mobile Phone */
-@media screen and (max-width:676px) {
- 
-    .display-flex{
-     display:grid;
-     justify-content: center;
-     gap: 20px;
-
-    }
-  .head-bgc{
+@media screen and (max-width: 576px) {
+  .display-flex {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+  }
+  .head-bgc {
     height: 300px;
     margin-bottom: 30px;
   }
-  main{
+  main {
     max-width: 100%;
     margin: 0 auto;
   }
-  .team-picture{
-    display:grid;
-    grid-template-columns: repeat(1,1fr);
+  .team-picture {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
- .teams{
-  flex-direction: column;
-  margin-left: 0px;
-  width:100%;
-    
-}
+  .teams {
+    flex-direction: column;
+    margin-left: 0px;
+   
+  }
+  .team-title{
+    width: 300px;
+    margin: 0 auto;
+  }
 }
