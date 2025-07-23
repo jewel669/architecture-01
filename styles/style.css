@@ -5,6 +5,10 @@
   font-weight: 500;
   font-style: normal;
 }
+/* font color paragraph */
+.font-color{
+    color: #727272;
+}
 /* head text style */
 .heading{
     max-width: 100%;
@@ -33,7 +37,7 @@ nav ul {
 }
 nav ul a{
     text-decoration: none;
-    color: black;
+    color: #494747;
 }
 /* Button Style and color */
 .btn-primary{
@@ -71,19 +75,63 @@ nav ul a{
 .head-bgc-image{
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 20px;
-   
-   
+    /* margin-bottom: 20px; */
 }
+
+/* team photos and description */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.teams{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.team-picture{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-title{
+    margin-left: 74px;
+    height: 330px;
+    width: 500px;
+    /* align-items: center; */
+}
+
+
+
+
+
+
+
 
 
 /* media query responsive with mobile Phone */
 @media screen and (max-width:676px) {
-  
+ 
     .display-flex{
      display:grid;
      justify-content: center;
      gap: 20px;
 
     }
+  .head-bgc{
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  main{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .team-picture{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+ .teams{
+   display:grid;
+    /* align-items: start; */
+    margin-left: none;
+    
 }
